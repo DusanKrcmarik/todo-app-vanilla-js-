@@ -42,9 +42,6 @@ button:focus {
    outline: none;
 }
 
-.toggle-btn {
-}
-
 input {
       box-shadow:inset 0px 0px 14px -3px #f2fadc;
       background-color:white;
