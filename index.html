@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Todo App - Pure JS</title>
-  </head>
-  <body>
-    <h1>Todo List</h1>
 
-    <div>
-      <button onclick="handlers.toggleAll()">Toggle All</button>
-    </div>
-    
-    <div>
-      <button onclick="handlers.addTodo()">Add</button>
-      <input id="addTodoTextInput" type="text" placeholder="item">
-    </div>
-    
-    <div>
-      <button onclick="handlers.changeTodo()">Change Todo</button>
-      <input id="changeTodoPositionInput" type="number" placeholder="num">
-      <input id="changeTodoTextInput" type="text" placeholder="modify">
-    </div>
-    
-    <div>
-      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
-      <input id="toggleCompletedPositionInput" type="number" placeholder="num">
-    </div>
-    
-    <ul>
-    </ul>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <title>Todo App - Pure JS</title>
+</head>
+
+<body>
+  <h1>Todo List</h1>
+
+  <div>
+    <button class="toggle-btn" onclick="handlers.toggleAll()">Toggle All</button>
+  </div>
+
+  <div>
+    <button onclick="handlers.addTodo()">Add</button>
+    <input id="addTodoTextInput" type="text" placeholder="item">
+  </div>
+
+  <div>
+    <button onclick="handlers.changeTodo()">Change Todo</button>
+    <input id="changeTodoPositionInput" type="number" placeholder="num">
+    <input id="changeTodoTextInput" type="text" placeholder="modify">
+  </div>
+
+  <div>
+    <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+    <input id="toggleCompletedPositionInput" type="number" placeholder="num">
+  </div>
+
+  <ul>
+  </ul>
+  <script src="script.js"></script>
+</body>
+
 </html>
